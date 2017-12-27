@@ -126,7 +126,51 @@ a {
 }
 
 .social-link.email {
+  position: absolute;
+  left: 75px;
+  display: inline-block;
+  padding-right: 1px;
+  padding-bottom: 22px;
+  padding-left: 4px;
   background-image: url('../images/32x32_email.png');
+}
+
+.div-block {
+  position: static;
+  display: block;
+  overflow: visible;
+}
+
+.container {
+  padding-left: 57px;
+  border-radius: 350px;
+}
+
+.image {
+  border-radius: 350px;
+}
+
+.image-2 {
+  position: relative;
+  left: 45px;
+  top: 5px;
+  right: 4px;
+  width: 21px;
+  height: 21px;
+  float: left;
+}
+
+.link-block {
+  position: relative;
+  left: 16px;
+  right: 25px;
+  width: 35px;
+  height: 35px;
+  padding-left: 8px;
+}
+
+.body {
+  background-color: #5792d3;
 }
 
 @media (max-width: 479px) {
