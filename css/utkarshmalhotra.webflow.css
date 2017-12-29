@@ -110,8 +110,25 @@ a {
 }
 
 .social-link.facebook {
+  position: static;
+  left: 69px;
+  display: block;
   overflow: visible;
+  width: 45px;
+  height: 45px;
+  clear: none;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   background-image: url('../images/32x32_facebook.png');
+  text-align: left;
 }
 
 .social-link.twitter {
@@ -123,16 +140,26 @@ a {
 }
 
 .social-link.linkedin {
+  position: static;
+  left: 93px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  float: left;
   background-image: url('../images/32x32_linkedin.png');
 }
 
 .social-link.email {
-  position: absolute;
-  left: 75px;
+  position: static;
+  left: 217px;
+  right: 27px;
   display: inline-block;
+  width: 45px;
+  height: 45px;
   padding-right: 1px;
   padding-bottom: 22px;
   padding-left: 4px;
+  clear: none;
   background-image: url('../images/32x32_email.png');
 }
 
@@ -155,21 +182,21 @@ a {
 }
 
 .image-2 {
-  position: relative;
-  left: 45px;
+  position: static;
+  left: 188px;
   top: 5px;
-  right: 4px;
-  width: 21px;
-  height: 21px;
+  right: 13px;
+  width: 30px;
+  height: 30px;
   float: left;
 }
 
 .link-block {
   position: relative;
-  left: 16px;
+  left: 151px;
   right: 25px;
-  width: 35px;
-  height: 35px;
+  width: 50px;
+  height: 50px;
   padding-left: 8px;
 }
 
@@ -182,6 +209,7 @@ a {
 .heading {
   font-size: 20px;
   line-height: 35px;
+  text-align: center;
 }
 
 .image-3 {
@@ -206,6 +234,71 @@ a {
 .image-7 {
   width: 32px;
   height: 32px;
+}
+
+.heading-2 {
+  text-align: center;
+}
+
+.paragraph {
+  line-height: 40px;
+  text-align: center;
+}
+
+.container-2 {
+  position: relative;
+  top: 127px;
+  display: block;
+  margin-top: 3px;
+  margin-bottom: 7px;
+  padding-right: 205px;
+  padding-bottom: 21px;
+  padding-left: 74px;
+  text-align: center;
+}
+
+.row {
+  display: block;
+  width: 250px;
+  height: 50px;
+  margin-left: 73px;
+  padding-left: 1px;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.link-block-2 {
+  background-image: url('../images/fbicon.png');
+  background-size: contain;
+}
+
+.link-block-3 {
+  background-image: url('../images/fbicon.png');
+  background-position: 0px 0px;
+  background-size: contain;
+}
+
+.link-block-4 {
+  background-image: url('../images/linkedini.png');
+  background-position: 0px 0px;
+  background-size: contain;
+}
+
+.link-block-5 {
+  background-image: url('../images/maili.png');
+  background-position: 0px 0px;
+  background-size: contain;
+}
+
+.link-block-6 {
+  background-image: url('../images/phonei.png');
+  background-position: 0px 0px;
+  background-size: contain;
+}
+
+.row-2 {
+  width: 400px;
 }
 
 @media (max-width: 479px) {
