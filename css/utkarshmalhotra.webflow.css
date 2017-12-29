@@ -274,31 +274,42 @@ a {
 }
 
 .link-block-3 {
+  width: 75px;
+  height: 75px;
   background-image: url('../images/fbicon.png');
   background-position: 0px 0px;
   background-size: contain;
 }
 
 .link-block-4 {
+  width: 75px;
+  height: 75px;
   background-image: url('../images/linkedini.png');
   background-position: 0px 0px;
   background-size: contain;
 }
 
 .link-block-5 {
+  width: 75px;
+  height: 75px;
   background-image: url('../images/maili.png');
   background-position: 0px 0px;
   background-size: contain;
 }
 
 .link-block-6 {
+  width: 75px;
+  height: 75px;
   background-image: url('../images/phonei.png');
   background-position: 0px 0px;
   background-size: contain;
 }
 
 .row-2 {
+  display: block;
   width: 400px;
+  height: 75px;
+  padding-right: 0px;
 }
 
 @media (max-width: 479px) {
